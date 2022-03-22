@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+float Cube (float a){
+    float c;
+    c= a*a*a;
+return c;
+}
+int main()
+{
+    float a;
+    printf("Give a: ");
+    scanf("%f",&a);
+    printf("the cube of %f is: %f \n", a, Cube(a));
+    return 0;
+}
