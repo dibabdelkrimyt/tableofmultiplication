@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+void tableau_de_multiplication (int a){
+int i=0, n;
+printf("n= \t");
+scanf("%d", &n);
+printf("\n");
+for (i=0; i<=n; i++)
+{
+printf("%d x %d= %d \n", a, i, a*i);
+}
+
+}
+int main()
+{
+    int n;
+    printf("Entrez n: \t",&n );
+    scanf("%d",&n);
+    tableau_de_multiplication(n);
+    return 0;
+}
